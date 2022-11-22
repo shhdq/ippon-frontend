@@ -6,4 +6,12 @@
     .nav-hover {
         @apply hover:text-red-500
     }
+
+    .active {
+        @apply text-[#ff4e00]
+    }
+
+    .paginate-active {
+        @apply  bg-gray-900 text-gray-50 !important
+    }
 }
