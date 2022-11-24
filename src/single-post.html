@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-[url('https://www.ippon.lv/images/site/bg2.jpg')]">
+
+
+    <section class="w-full flex items-center justify-center">
+        <div class="flex items-center justify-between w-full lg:w-1/2 px-5 py-3">
+            <div class="text-sm font-semibold">
+                <a href="" class="border-x-[1px] border-black pl-2 pr-8 pt-5">RU</a>
+                <a href="" class="pl-2 pr-8 pt-5">LV</a>
+            </div>
+
+            <div class="flex lg:hidden" id="hamburger-container">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-10 h-10" id="hamburger">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <div class="fixed top-0 left-0 w-screen h-screen hidden flex-col bg-gray-50 duration-300 ease-in-out z-30"
+                    id="mob-nav">
+                    <div class="w-full flex justify-end p-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-10 h-10" id="close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+
+                    </div>
+
+                    <nav
+                        class="flex flex-col text-gray-800  justify-evenly text-sm font-semibold h-8 items-center gap-5 relative top-10 mt-44">
+                        <a href="par-klubu.html" class="nav-hover">Par klubu</a>
+                        <a href="kalendars.html" class="nav-hover">Kalendārs</a>
+                        <a href="nodarbibas.html" class="nav-hover">Nodarbības</a>
+                        <a href="" class="nav-hover">Sportisti</a>
+                        <a href="" class="nav-hover">Treneri</a>
+                        <a href="" class="nav-hover">Rezultāti</a>
+                        <a href="" class="nav-hover">Galereja</a>
+                        <a href="" class="nav-hover">Noderīga</a>
+                        <a href="" class="nav-hover">Sadarbība</a>
+                        <a href="" class="nav-hover">informācija</a>
+                        <a href="" class="nav-hover">Kontakti</a>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--// Top Nav -->
+
+    <section
+        class="bg-[url('https://www.ippon.lv/images/site/bg-top.jpg')] h-72 relative flex flex-col items-center justify-center">
+        <div class="flex justify-center items-center w-full">
+            <div class="flex flex-col lg:flex-row items-center justify-center">
+                <a href="./index.html"><img src="https://www.ippon.lv/images/site/logo-v2.png" alt="" class=""></a>
+                <img src="https://www.ippon.lv/images/site/slogan_lv.png" alt="" class="col-span-1">
+            </div>
+
+            <img src="https://www.ippon.lv/images/site/visual.gif" alt="" class="hidden lg:flex relative top-[-14.5px]">
+        </div>
+
+        <nav
+            class="absolute bottom-0 bg-[url('https://www.ippon.lv/images/site/bg-menu.png')] bg-cover bg-center w-[1000px] text-white hidden lg:flex justify-evenly text-sm font-semibold h-8 items-center">
+            <a href="par-klubu.html" class="nav-hover">Par klubu</a>
+            <a href="kalendars.html" class="nav-hover">Kalendārs</a>
+            <a href="nodarbibas.html" class="nav-hover">Nodarbības</a>
+            <a href="" class="nav-hover">Sportisti</a>
+            <a href="" class="nav-hover">Treneri</a>
+            <a href="" class="nav-hover">Rezultāti</a>
+            <a href="" class="nav-hover">Galereja</a>
+            <a href="" class="nav-hover">Noderīga</a>
+            <a href="" class="nav-hover">Sadarbība</a>
+            <a href="" class="nav-hover">informācija</a>
+            <a href="" class="nav-hover">Kontakti</a>
+        </nav>
+    </section>
+    <!--// Header -->
+
+    <section class="flex justify-center mt-5">
+        <div class="grid grid-cols-1 lg:grid-cols-4 w-[1100px] gap-[1px]">
+            <div class="bg-gray-50 span-1 flex justify-center py-5 lg:pt-10">
+                <div class="text-sm flex flex-col gap-2">
+
+                    <!-- To make active link: add "active" name in class both li and svg, see first link -->
+                    <div class="flex items-center gap-2">
+                        <svg stroke="currentColor" fill="currentColor" class="active" stroke-width="0"
+                            viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM641.7 520.8L442.3 677.6c-7.4 5.8-18.3.6-18.3-8.8V355.3c0-9.4 10.9-14.7 18.3-8.8l199.4 156.7a11.2 11.2 0 0 1 0 17.6z">
+                            </path>
+                        </svg>
+                        <a href="jaunumi.html" class="active">Jaunumi</a>
+                    </div>
+                    <!--// Single link -->
+
+                    <div class="flex items-center gap-2">
+                        <svg stroke="currentColor" fill="currentColor" class="" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM641.7 520.8L442.3 677.6c-7.4 5.8-18.3.6-18.3-8.8V355.3c0-9.4 10.9-14.7 18.3-8.8l199.4 156.7a11.2 11.2 0 0 1 0 17.6z">
+                            </path>
+                        </svg>
+                        <a href="merki.html" class="">Mērķi</a>
+                    </div>
+                    <!--// Single link -->
+
+                    <div class="flex items-center gap-2">
+                        <svg stroke="currentColor" fill="currentColor" class="" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM641.7 520.8L442.3 677.6c-7.4 5.8-18.3.6-18.3-8.8V355.3c0-9.4 10.9-14.7 18.3-8.8l199.4 156.7a11.2 11.2 0 0 1 0 17.6z">
+                            </path>
+                        </svg>
+                        <a href="emblema.html" class="">Emblēma</a>
+                    </div>
+                    <!--// Single link -->
+
+                    <div class="flex items-center gap-2">
+                        <svg stroke="currentColor" fill="currentColor" class="" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM641.7 520.8L442.3 677.6c-7.4 5.8-18.3.6-18.3-8.8V355.3c0-9.4 10.9-14.7 18.3-8.8l199.4 156.7a11.2 11.2 0 0 1 0 17.6z">
+                            </path>
+                        </svg>
+                        <a href="sporta-zale.html" class="">Sporta zāle</a>
+                    </div>
+                    <!--// Single link -->
+
+                    <div class="flex items-center gap-2">
+                        <svg stroke="currentColor" fill="currentColor" class="" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM641.7 520.8L442.3 677.6c-7.4 5.8-18.3.6-18.3-8.8V355.3c0-9.4 10.9-14.7 18.3-8.8l199.4 156.7a11.2 11.2 0 0 1 0 17.6z">
+                            </path>
+                        </svg>
+                        <a href="eksamena-programma.html" class="">Eksāmena programma</a>
+                    </div>
+                    <!--// Single link -->
+
+                    <div class="flex items-center gap-2">
+                        <svg stroke="currentColor" fill="currentColor" class="" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM641.7 520.8L442.3 677.6c-7.4 5.8-18.3.6-18.3-8.8V355.3c0-9.4 10.9-14.7 18.3-8.8l199.4 156.7a11.2 11.2 0 0 1 0 17.6z">
+                            </path>
+                        </svg>
+                        <a href="kluba-noteikumi.html" class="">Kluba "IPPON.LV" noteikumi</a>
+                    </div>
+                    <!--// Single link -->
+
+                </div>
+                <!--// Menu wrapper -->
+            </div>
+            <!--// Side menu -->
+
+            <div class="bg-gray-50 col-span-3 px-5 lg:px-10 py-5 flex flex-col gap-4 text-sm">
+                <h1 class="text-2xl text-[#00519c]">Jaunumi / Uzņemšana 2022</h1>
+
+                <div class="flex flex-col lg:flex-row gap-2">
+                    <div>
+                        <span class="font-extralight">01-09-2022</span>
+                        <p class="mt-5 font-bold">Aicinām zēnus un meitenes no 4 gadiem uz nodarbībām!</p>
+
+                        <p>Kāpēc tieši klubs "IPPON.LV"?
+                        </p>
+                        <ul class="list-disc pl-3">
+                            <li>Profesionālie treneri ar bagātu pieredzi atradīs kontaktu ar katru bērnu.</li>
+                            <li>Veselība, disciplīna, fiziskā attīstība, gars un pozitīvas emocijas bērniem!
+                            </li>
+                            <li>Aprīkotas sporta zāles ar mīkstu segumu (tatami), inventāru un ekipējumu - priekš
+                                drošiem un komfortiem treniņiem.</li>
+                            <li>Sportisti sadalīti grupās pēc vecuma un pieredzes - iesācējs netrenēsies ar pieredzējošo
+                                sportistu. Katra grupa trenējas
+                                pēc savas programmas.</li>
+                            <li>Ērts nodarbību grafiks, iespēja izvēlēties grupu.</li>
+                            <li>Attīstības iespējas talantīgiem un mērķtiecīgiem sportistiem - papildus bezmaksas
+                                izlases treniņi, atklāties treniņi,
+                                semināri, sacensības.</li>
+                            <li>"IPPON.LV" ir viens no vadošiem Latvijas karatē federācijas klubiem. LKF - vienīga
+                                organizācija, kurai ir tiesības
+                                pārstāvēt un attīstīt KARATĒ Latvijā.</li>
+                            <li>Nometnes, ekskursijas, semināri, "Nakts zālē" un citi pasākumi, kuri padarīs bērnus vēl
+                                laimīgākus!</li>
+                            <li>Izmēģinājuma nodarbības - BEZMAKSAS!</li>
+                        </ul>
+                        <!--// List -->
+
+                        <p class="mt-5">Treniņi Imantā (Kleistu iela 18A-1, "ABAVA") un Jūrmalā, Kauguros.</p>
+                        <p>Papildus informācija pa telefonu 26555727 vai info@ippon.lv.</p>
+
+                        <a href="" class="flex items-center gap-2 text-[#3389b6] mt-10">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                            </svg>
+                            Atpakaļ
+                        </a>
+
+
+                    </div>
+                    <img src="https://www.ippon.lv/trash/thumb/5c1a338c41a2942c53420b4f5fcbef39ba4395fd.jpg" alt="">
+                </div>
+            </div>
+            <!--// Content -->
+        </div>
+    </section>
+    <!--// Main feed -->
+
+    <section class="flex justify-center items-center mt-5 relative">
+        <div class="absolute left-0 lg:relative">
+            <a href="">
+                <img src="https://www.ippon.lv/images/site/arrow-left.png" alt="">
+            </a>
+        </div>
+        <!--// Back arrow -->
+        <div class="w-[1100px] bg-[#01213f] gap-3 lg:gap-0 p-4 border-2 flex items-center justify-between">
+            <div>
+                <img src="https://www.ippon.lv/trash/thumb/db096050d7adebe07fdebde5ce766510ed69485a.jpg" alt="">
+            </div>
+            <!--// Single img -->
+
+            <div class="hidden lg:flex">
+                <img src="https://www.ippon.lv/trash/thumb/db096050d7adebe07fdebde5ce766510ed69485a.jpg" alt="">
+            </div>
+            <!--// Single img -->
+
+            <div class="hidden sm:flex lg:flex">
+                <img src="https://www.ippon.lv/trash/thumb/db096050d7adebe07fdebde5ce766510ed69485a.jpg" alt="">
+            </div>
+            <!--// Single img -->
+
+            <div class="hidden sm:flex lg:flex">
+                <img src="https://www.ippon.lv/trash/thumb/db096050d7adebe07fdebde5ce766510ed69485a.jpg" alt="">
+            </div>
+            <!--// Single img -->
+
+            <div>
+                <img src="https://www.ippon.lv/trash/thumb/db096050d7adebe07fdebde5ce766510ed69485a.jpg" alt="">
+            </div>
+            <!--// Single img -->
+        </div>
+        <!--// Carousel -->
+
+        <div class="absolute right-0 lg:relative">
+            <a href="">
+                <img src="https://www.ippon.lv/images/site/arrow-right.png" alt="">
+            </a>
+        </div>
+        <!--// Next arrow -->
+    </section>
+    <!--// Gallery -->
+
+
+    <footer class="bg-[#01213f] mt-5 h-44 text-white flex w-full justify-center pb-5 lg:pb-0">
+        <div class="w-[1100px] flex flex-col lg:flex-row justify-between text-sm mt-10 px-5 xl:px-0">
+            <div class="flex gap-10 text-center">
+                <p>Tālrunis: +371 26555727</p>
+                <p>E-pasts: info@ippon.lv</p>
+            </div>
+
+            <div class="text-center">
+                <p>© 2011-2022 IPPON.LV. Visas tiesības aizsargātas.</p>
+            </div>
+        </div>
+    </footer>
+    <!--// footer -->
+
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

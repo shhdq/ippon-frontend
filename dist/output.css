@@ -702,6 +702,14 @@ video {
   width: 1.5rem;
 }
 
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .table-auto {
   table-layout: auto;
 }
@@ -736,6 +744,10 @@ video {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -893,6 +905,11 @@ video {
 .bg-orange-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/www\.ippon\.lv\/images\/site\/bg2\.jpg\'\)\] {
@@ -1160,6 +1177,10 @@ video {
     width: 50%;
   }
 
+  .lg\:w-2\/4 {
+    width: 50%;
+  }
+
   .lg\:table-auto {
     table-layout: auto;
   }
@@ -1174,6 +1195,10 @@ video {
 
   .lg\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
