@@ -25,12 +25,39 @@
                 <a href="" class="pl-2 pr-8 pt-5">LV</a>
             </div>
 
-            <div class="flex lg:hidden">
+            <div class="flex lg:hidden" id="hamburger-container">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-10 h-10">
+                    stroke="currentColor" class="w-10 h-10" id="hamburger">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
+
+                <div class="fixed top-0 left-0 w-screen h-screen hidden flex-col bg-gray-50 duration-300 ease-in-out z-30"
+                    id="mob-nav">
+                    <div class="w-full flex justify-end p-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-10 h-10" id="close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+
+                    </div>
+
+                    <nav
+                        class="flex flex-col text-gray-800  justify-evenly text-sm font-semibold h-8 items-center gap-5 relative top-10 mt-44">
+                        <a href="par-klubu.html" class="nav-hover">Par klubu</a>
+                        <a href="kalendars.html" class="nav-hover">Kalendārs</a>
+                        <a href="nodarbibas.html" class="nav-hover">Nodarbības</a>
+                        <a href="" class="nav-hover">Sportisti</a>
+                        <a href="" class="nav-hover">Treneri</a>
+                        <a href="" class="nav-hover">Rezultāti</a>
+                        <a href="" class="nav-hover">Galereja</a>
+                        <a href="" class="nav-hover">Noderīga</a>
+                        <a href="" class="nav-hover">Sadarbība</a>
+                        <a href="" class="nav-hover">informācija</a>
+                        <a href="" class="nav-hover">Kontakti</a>
+                    </nav>
+
+                </div>
             </div>
         </div>
     </section>
@@ -49,9 +76,9 @@
 
         <nav
             class="absolute bottom-0 bg-[url('https://www.ippon.lv/images/site/bg-menu.png')] bg-cover bg-center w-[1000px] text-white hidden lg:flex justify-evenly text-sm font-semibold h-8 items-center">
-            <a href="/src/par-klubu.html" class="nav-hover">Par klubu</a>
-            <a href="/src/kalendars.html" class="nav-hover">Kalendārs</a>
-            <a href="/src/nodarbibas.html" class="nav-hover">Nodarbības</a>
+            <a href="par-klubu.html" class="nav-hover">Par klubu</a>
+            <a href="kalendars.html" class="nav-hover">Kalendārs</a>
+            <a href="nodarbibas.html" class="nav-hover">Nodarbības</a>
             <a href="" class="nav-hover">Sportisti</a>
             <a href="" class="nav-hover">Treneri</a>
             <a href="" class="nav-hover">Rezultāti</a>
